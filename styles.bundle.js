@@ -62,7 +62,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n", ""]);
+exports.push([module.i, "* {\n\t-webkit-box-sizing: border-box;\n\t        box-sizing: border-box;\n}\n\nhtml {\n\tmin-width: 320px;\n}\n\nbody {\n\tmargin: auto;\n\tmin-width: 320px;\n\tbackground-color: #ffffff;\n}\n\na.nostyle:link {\n    text-decoration: inherit;\n    color: inherit;\n    cursor: auto;\n}\n\na.nostyle:visited {\n    text-decoration: inherit;\n    color: inherit;\n    cursor: auto;\n}\n\ncarousel {\n\tdisplay: block;\n\tpadding: 0;\n\tposition: relative;\n  width: 100%;\n}", ""]);
 
 // exports
 
