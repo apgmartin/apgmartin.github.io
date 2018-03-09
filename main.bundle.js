@@ -173,7 +173,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var appRoutes = [
     {
-        path: '',
+        path: '/',
         component: __WEBPACK_IMPORTED_MODULE_12__home_home_component__["a" /* HomeComponent */]
     },
     {
